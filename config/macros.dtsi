@@ -37,12 +37,14 @@
   lguilsrshift_tap: lguilsrshift_tap {
     label = "ZM_lguilsrshift_tap";
     compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
     bindings = <&macro_press &mt RALT SPACE>;
 };
 
 lguilsrshift_hold: lguilsrshift_hold {
     label = "ZM_lguilsrshift_hold";
     compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
     bindings
         = <&macro_press &mt LGUI LSHFT RCTRL>
         , <&macro_release &mt LGUI LSHFT RCTRL>;
