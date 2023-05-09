@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\config",
+    "\\config\\boards\\arm\\adv360"
   ],
-  "SelectedNode": "\\C:\\Users\\Kieri\\Source\\Repos\\Adv360-Pro-ZMK",
+  "SelectedNode": "\\config\\adv360.keymap",
   "PreviewInSolutionExplorer": false
 }
