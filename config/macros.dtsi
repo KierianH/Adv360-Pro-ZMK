@@ -37,14 +37,14 @@
   lguilsrshift_tap: lguilsrshift_tap {
     label = "ZM_lguilsrshift_tap";
     compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
+    binding-cells = <0>;
     bindings = <&macro_press &mt RALT SPACE>;
 };
 
 lguilsrshift_hold: lguilsrshift_hold {
     label = "ZM_lguilsrshift_hold";
     compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
+    binding-cells = <0>;
     bindings
         = <&macro_press &mt LGUI LSHFT RCTRL>
         , <&macro_release &mt LGUI LSHFT RCTRL>;
@@ -53,7 +53,7 @@ lguilsrshift_hold: lguilsrshift_hold {
 bt_lguilsrshift: bt_lguilsrshift {
     label = "ZM_lguilsrshift_tap_hold";
     compatible = "zmk,behavior-tap";
-    #binding-cells = <0>;
+    binding-cells = <0>;
     timeout-ms = <300>;
     tap = <&lguilsrshift_tap>;
     hold = <&lguilsrshift_hold>;
