@@ -39,13 +39,11 @@
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
     bindings
-        = <&macro_press &kp LGUI>
+       = <&macro_press &kp LGUI>
         , <&macro_press &kp LSHFT>
-        , <&macro_press &kp RSHFT>
-        ;
-    hold_press_ms = <0>;  // Hold all three keys until the key is released
-    bindings_release
-        = <&macro_release &kp RSHFT>
+        , <&macro_press &kp RCTRL>
+        , <&macro_delay 100>  // Wait for 100ms after the keys are pressed
+        , <&macro_release &kp RCTRL>
         , <&macro_release &kp LSHFT>
         , <&macro_release &kp LGUI>
         ;
