@@ -37,8 +37,11 @@
 
   r_super: r_super {
     label = "ZM_r_super";
-    compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
+    compatible = "zmk,behavior-hold-tap";
+    #binding-cells = <2>;
+    tapping-term-ms = <200>;
+    quick_tap_ms = <175>;
+    flavor = "hold-preferred";
     bindings
         = <&kp LGUI>
         , <&kp LSHFT>
