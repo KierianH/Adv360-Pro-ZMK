@@ -42,8 +42,5 @@
         = <&macro_press &kp LGUI>
         , <&macro_press &kp LSHFT>
         , <&macro_press &kp RCTRL>
-        , <&macro_release &kp RCTRL>
-        , <&macro_release &kp LSHFT>
-        , <&macro_release &kp LGUI>
         ;
 };
