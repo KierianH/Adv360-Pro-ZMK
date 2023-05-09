@@ -53,8 +53,10 @@ lguilsrshift_hold: lguilsrshift_hold {
 bt_lguilsrshift: bt_lguilsrshift {
     label = "ZM_lguilsrshift_tap_hold";
     compatible = "zmk,behavior-tap";
+    #binding-cells = <0>;
     timeout-ms = <300>;
     tap = <&lguilsrshift_tap>;
     hold = <&lguilsrshift_hold>;
 };
+
 
