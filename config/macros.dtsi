@@ -35,10 +35,13 @@
     bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
   };
 
- combo_behavior: combo_behavior {
-    compatible = "zmk,behavior-mod-tap";
-    label = "Combo_Behavior";
+  r_super: r_super {
+    label = "ZM_r_super";
+    compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
-    bindings = <&kp LGUI>, <&kp LSHFT>, <&kp RCTRL>;
+    bindings
+        = <&macro_press &kp LGUI>
+        , <&macro_press &kp LSHFT>
+        , <&macro_press &kp RCTRL>
+        ;
 };
-
