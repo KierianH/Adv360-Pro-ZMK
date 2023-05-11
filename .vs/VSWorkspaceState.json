@@ -1,9 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\.github",
+    "\\.github\\workflows",
+    "\\bin",
     "\\config",
-    "\\config\\boards\\arm\\adv360"
+    "\\config\\boards",
+    "\\config\\boards\\arm",
+    "\\config\\boards\\arm\\adv360",
+    "\\firmware"
   ],
-  "SelectedNode": "\\config\\adv360.keymap",
+  "SelectedNode": "\\Makefile",
   "PreviewInSolutionExplorer": false
 }
