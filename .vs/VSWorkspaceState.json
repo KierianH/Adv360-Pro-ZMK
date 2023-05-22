@@ -10,6 +10,6 @@
     "\\config\\boards\\arm\\adv360",
     "\\firmware"
   ],
-  "SelectedNode": "\\Makefile",
+  "SelectedNode": "\\.github\\workflows\\build.yml",
   "PreviewInSolutionExplorer": false
 }
